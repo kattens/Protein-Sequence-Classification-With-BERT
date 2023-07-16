@@ -1,5 +1,5 @@
 # Simple-Protein-Sequence-Generator-With-BERT-Model
-The BERT-based Protein Sequence Generator is a model that utilizes the capabilities of BERT (Bidirectional Encoder Representations from Transformers) to generate protein sequences. It has been designed with a focus on simplicity.
+The BERT-based Protein Sequence classification is a model that utilizes the capabilities of BERT (Bidirectional Encoder Representations from Transformers) to classify protein sequences. It has been designed with a focus on simplicity.
 
 Proteins play a vital role in various biological processes, and understanding their sequences is crucial for studying their functions and interactions. However, the complexity of protein sequences poses a challenge for researchers and scientists. The Simple Protein Sequence Generator aims to simplify this process by utilizing the BERT model, which has demonstrated remarkable performance in natural language processing tasks.
 

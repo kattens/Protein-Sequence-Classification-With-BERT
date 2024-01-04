@@ -7,6 +7,34 @@ The BERT model is a state-of-the-art language representation model that has been
 
 With the Simple Protein Sequence Classification, users can input specific criteria such as desired length, and amino acid composition, or even incorporate known motifs or patterns. The classifier then employs the BERT model to generate a sequence that fulfills the given criteria while adhering to the constraints and rules of protein structure and function. The resulting sequences can be easily exported for further analysis or experimentation.
 
+# Before we start:
+BERT and Transformer Architecture
+
+    BERT (Bidirectional Encoder Representations from Transformers) is a groundbreaking model in natural language processing developed by Google.
+    It utilizes the transformer architecture, which is based on the principle of self-attention, allowing the model to weigh the importance of different parts of the input data.
+    BERT is characterized by its bidirectional nature, meaning it analyzes each word in the context of all the other words in a sentence, not just the words that precede it.
+
+Attention Mechanism
+
+    Attention mechanisms in models like BERT allow the model to focus on different parts of the input sequence. This is crucial for understanding the context and relationships within the data.
+    Multi-head attention allows the model to explore different types of relationships in parallel. Each attention head can focus on different aspects of the input.
+
+Attention Heads and Weights
+
+    Attention heads have different initial weights, leading them to specialize in various aspects of the data.
+    Despite optimizing for the same goal, attention heads typically do not converge to the same weights due to the complexity of the data, the non-convex optimization landscape, and techniques like dropout that encourage diversity in learning.
+
+Supervised Learning with Attention
+
+    To apply these concepts in a supervised learning task, such as classification, the multi-head attention mechanism can be integrated into a larger model.
+    This model includes an input layer (like an embedding layer), the attention mechanism, and an output layer for making predictions based on labels.
+    The training process involves using labeled data, where the model learns to predict the labels correctly by adjusting its weights through backpropagation and optimization algorithms.
+
+Practical Implementation
+
+    A practical implementation of a simple transformer-based model was demonstrated in Python using PyTorch. This model featured a multi-head attention mechanism and was designed for a binary classification task.
+    The model included key components like embedding layers, linear transformations for creating Q, K, and V matrices, the multi-head attention mechanism, and a classification layer.
+    A basic training loop was shown to illustrate how such a model can be trained with labeled data, using loss functions and optimizers appropriate for the task
 # PHASE ONE:
 To fine-tune a BERT model on a sequence with a masking approach, we have to follow these steps:
 

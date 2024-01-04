@@ -8,9 +8,6 @@ The BERT model is a state-of-the-art language representation model that has been
 With the Simple Protein Sequence Classification, users can input specific criteria such as desired length, and amino acid composition, or even incorporate known motifs or patterns. The classifier then employs the BERT model to generate a sequence that fulfills the given criteria while adhering to the constraints and rules of protein structure and function. The resulting sequences can be easily exported for further analysis or experimentation.
 
 # Before we start:
-Sure! Here's a formatted summary suitable for a GitHub README, using Markdown:
-
----
 
 ## Summary: BERT, Transformers, and Attention Mechanism
 

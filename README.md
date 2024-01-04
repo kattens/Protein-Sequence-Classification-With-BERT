@@ -39,11 +39,8 @@ With the Simple Protein Sequence Classification, users can input specific criter
 ### Practical Implementation: Python and PyTorch
 - **Code Demonstration**:
   - Implemented a simple transformer-based model for binary classification.
-  - Includes embeddings, linear transformations for Q, K, V matrices, multi-head attention, and classification layer.
+  - Includes embeddings, linear transformations for Q, K, and V matrices, multi-head attention, and classification layer.
   - Training loop with loss functions and optimizers tailored to the task.
-
-### Conclusion
-This discussion provided insights into BERT and transformer architecture, emphasizing the role of attention mechanisms in NLP. We explored the unique learning trajectories of attention heads and their impact on model performance. A practical Python implementation illustrated these concepts, demonstrating their application in machine learning tasks.
 
 
  # PHASE ONE:
